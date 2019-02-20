@@ -76,23 +76,24 @@ romanNumerals = int => {
     };
 	const getRomanNumbers = () => {
         dims.forEach((dim, index) => {
-			if(dim > 1000) {
-				const s_dim = ''.padStart(dim / 1000, 'M');
+			if( dim !== 0 ) {		
+				if(dim > 1000) {
+                    const s_dim = ''.padStart(dim / 1000, 'M');
 
-				string_dims.push(s_dim);
+                    string_dims.push(s_dim);
+                }
+                else {
+                    const exact_dim = isExact(dim);
+
+                    if( exact_dim ) {				
+                        string_dims.push( exact_dim );
+                    }
+                    else {
+                        const s_dim = getCompDim(dim);
+                        string_dims.push(s_dim);
+                    }				
+                };
             }
-			else {
-				const exact_dim = isExact(dim);
-
-				if( exact_dim ) {				
-					string_dims.push( exact_dim );
-                }
-				else {
-					const s_dim = getCompDim(dim);
-					string_dims.push(s_dim);
-                }
-				
-            };
         });
     };
 	
