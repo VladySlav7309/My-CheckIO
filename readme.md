@@ -1,4 +1,5 @@
-My solution of 'RomanNumerals' task from checkio
+My solution of 'RomanNumerals' task from checkio.
+
 Check full task description on https://js.checkio.org/en/mission/roman-numerals/
 
 Input: A number as an integer.
