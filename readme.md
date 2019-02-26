@@ -1,14 +1,2 @@
-My solution of 'RomanNumerals' task from checkio.<br/>
-Check full task description on https://js.checkio.org/en/mission/roman-numerals/
-
-<b>Input</b>: A number as an integer.<br/>
-<b>Output</b>: The Roman numeral as a string.
-
-Example:
-  <romanNumerals(6) == 'VI'<br/>
-  romanNumerals(76) == 'LXXVI'<br/>
-  romanNumerals(13) == 'XIII'<br/>
-  romanNumerals(44) == 'XLIV'<br/>
-  romanNumerals(3999) == 'MMMCMXCIX'<br/>
-
-Precondition: 0 < number < 4000
+Here I keep solutions for some interesting tasks found on checkIO.<br> Please check their site for more details.<br><br>
+Most of solutions are raw and not error-prone or well-optimized, mostly because it's not required for the solution to pass.
